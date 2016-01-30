@@ -1,0 +1,672 @@
+﻿[2016.01.30-04.03.19:290][  0]Log file open, 01/29/16 20:03:19
+[2016.01.30-04.03.19:290][  0]LogInit:Display: Running engine for game: SurviveBlackFriday
+[2016.01.30-04.03.19:290][  0]LogInit:Display: RandInit(1935421762) SRandInit(1935421762).
+[2016.01.30-04.03.19:290][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.01.30-04.03.19:290][  0]LogStats: Stats thread started at 0.067522
+[2016.01.30-04.03.19:290][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.01.30-04.03.19:290][  0]LogInit: API Version: 2672455
+[2016.01.30-04.03.19:290][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.01.30-04.03.19:290][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.01.30-04.03.19:291][  0]LogInit: Build Configuration: Development
+[2016.01.30-04.03.19:291][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.01.30-04.03.19:291][  0]LogInit: Command line: 
+[2016.01.30-04.03.19:291][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.01.30-04.03.19:291][  0]LogInit: Rocket: 1
+[2016.01.30-04.03.19:297][  0]LogInit: Using libcurl 7.41.0
+[2016.01.30-04.03.19:297][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.30-04.03.19:297][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.30-04.03.19:297][  0]LogInit:  - other features:
+[2016.01.30-04.03.19:297][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.30-04.03.19:297][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.30-04.03.19:297][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.30-04.03.19:297][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.30-04.03.19:297][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.30-04.03.19:297][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.30-04.03.19:297][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.30-04.03.19:297][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.30-04.03.19:297][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.30-04.03.19:297][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.30-04.03.19:302][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.30-04.03.19:306][  0]LogInit: Object subsystem initialized
+[2016.01.30-04.03.19:309][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.30-04.03.19:309][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.30-04.03.19:316][  0]LogInit: Computer: CHRIS-WORK
+[2016.01.30-04.03.19:316][  0]LogInit: User: chris
+[2016.01.30-04.03.19:316][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.01.30-04.03.19:316][  0]LogInit: High frequency timer resolution =3.984658 MHz
+[2016.01.30-04.03.19:316][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.01.30-04.03.19:316][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.30-04.03.19:316][  0]LogMemory: Process Physical Memory: 54.14 MB used, 54.14 MB peak
+[2016.01.30-04.03.19:316][  0]LogMemory: Process Virtual Memory: 57.40 MB used, 57.40 MB peak
+[2016.01.30-04.03.19:316][  0]LogMemory: Physical Memory: 2939.05 MB used, 8134.82 MB total
+[2016.01.30-04.03.19:316][  0]LogMemory: Virtual Memory: 369.66 MB used, 134217728.00 MB total
+[2016.01.30-04.03.19:340][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.01.30-04.03.19:864][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 980 (Feature Level 11_0)
+[2016.01.30-04.03.19:864][  0]LogD3D11RHI: Adapter has 4009MB of dedicated video memory, 0MB of dedicated system memory, and 4067MB of shared system memory, 1 output[s]
+[2016.01.30-04.03.19:886][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GTX 980 (Feature Level 11_0)
+[2016.01.30-04.03.19:886][  0]LogD3D11RHI: Adapter has 4009MB of dedicated video memory, 0MB of dedicated system memory, and 4067MB of shared system memory, 0 output[s]
+[2016.01.30-04.03.19:887][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.01.30-04.03.19:887][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4067MB of shared system memory, 0 output[s]
+[2016.01.30-04.03.19:887][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.30-04.03.19:890][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.30-04.03.19:890][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.01.30-04.03.19:899][  0]LogD3D11RHI: Async texture creation enabled
+[2016.01.30-04.03.20:241][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Intermediate/Shaders/WorkingDirectory/6404/).
+[2016.01.30-04.03.20:241][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Intermediate/Shaders/tmp/9B9A421449BE67399ED1A5AB0C5EB8A9/'.
+[2016.01.30-04.03.20:241][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.30-04.03.20:937][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.01.30-04.03.20:941][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.30-04.03.20:945][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.30-04.03.20:948][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.30-04.03.20:952][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.30-04.03.20:954][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.30-04.03.20:956][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.30-04.03.20:958][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.30-04.03.20:960][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.30-04.03.20:963][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.30-04.03.20:965][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.30-04.03.20:967][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.30-04.03.20:968][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.01.30-04.03.20:983][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.30-04.03.20:985][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.30-04.03.20:987][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.30-04.03.20:990][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.30-04.03.20:990][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.30-04.03.21:049][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.30-04.03.21:090][  0]LogDerivedDataCache: Loaded boot cache 0.04s 57MB C:/Users/chris/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.01.30-04.03.21:090][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/chris/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.01.30-04.03.21:090][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.30-04.03.21:090][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.30-04.03.21:090][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.30-04.03.21:090][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.30-04.03.21:189][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.01.30-04.03.21:201][  0]LogDerivedDataCache: Using Local data cache path C:/Users/chris/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.30-04.03.21:315][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.30-04.03.21:317][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.30-04.03.21:400][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.30-04.03.21:400][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.30-04.03.21:562][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.30-04.03.22:071][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
+[2016.01.30-04.03.22:169][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.30-04.03.22:346][  0]SourceControl: Info Source control is disabled
+[2016.01.30-04.03.22:347][  0]SourceControl: Info Source control is disabled
+[2016.01.30-04.03.22:353][  0]SourceControl: Info Source control is disabled
+[2016.01.30-04.03.22:360][  0]SourceControl: Info Source control is disabled
+[2016.01.30-04.03.22:453][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.30-04.03.22:515][  0]LogObj: 28528 objects as part of root set at end of initial load.
+[2016.01.30-04.03.22:515][  0]LogUObjectAllocator: 6068456 out of 0 bytes used by permanent object pool.
+[2016.01.30-04.03.22:559][  0]LogEngine: Initializing Engine...
+[2016.01.30-04.03.22:561][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.01.30-04.03.22:561][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.01.30-04.03.22:653][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.30-04.03.22:662][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.30-04.03.22:681][  0]LogInit: FAudioDevice initialized.
+[2016.01.30-04.03.22:706][  0]LogDerivedDataCache: Saved boot cache 0.03s 57MB C:/Users/chris/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.01.30-04.03.22:712][  0]LogInit: Texture streaming: Enabled
+[2016.01.30-04.03.22:716][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.01.30-04.03.22:716][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.01.30-04.03.22:716][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 7546485e4b357fe6f795fd84ab7b1f4d|2ba8516318be4684bde40643550af380|ab9dcf30-4233-4d62-9ca1-65c345905221
+[2016.01.30-04.03.22:717][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.01.30-04.03.22:741][  0]LogInit: Transaction tracking system initialized
+[2016.01.30-04.03.22:762][  0]BlueprintLog: New page: Editor Load
+[2016.01.30-04.03.23:527][  0]LocalizationService: Info Localization service is disabled
+[2016.01.30-04.03.23:667][  0]LogLinker:Warning: Can't find file '/Game/BPNetworkingProject/PATCHNOTES_49xv2'
+[2016.01.30-04.03.23:667][  0]LogLinker:Warning: Can't find file '/Game/BPNetworkingProject/PATCHNOTES_49xv2'
+[2016.01.30-04.03.23:667][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/BPNetworkingProject/PATCHNOTES_49xv2.PATCHNOTES_49xv2_C'
+[2016.01.30-04.03.23:681][  0]LogConsoleResponse:Display: 
+[2016.01.30-04.03.23:767][  0]LogFileCache: Scanning file cache for directory 'C:/Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/' took 0.01s
+[2016.01.30-04.03.23:767][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.01.30-04.03.23:824][  0]SourceControl: Info Source control is disabled
+[2016.01.30-04.03.23:829][  0]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/4.9/FeaturePacks/StarterContent.upack)
+[2016.01.30-04.03.23:840][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2016.01.30-04.03.23:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2016.01.30-04.03.23:850][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2016.01.30-04.03.23:856][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2016.01.30-04.03.23:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2016.01.30-04.03.23:865][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2016.01.30-04.03.23:870][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2016.01.30-04.03.23:875][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2016.01.30-04.03.23:879][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2016.01.30-04.03.23:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2016.01.30-04.03.23:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2016.01.30-04.03.23:892][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2016.01.30-04.03.23:898][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Audio/Collapse01.uasset"
+[2016.01.30-04.03.23:904][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Audio/Collapse02.uasset"
+[2016.01.30-04.03.23:907][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2016.01.30-04.03.23:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Audio/Explosion01.uasset"
+[2016.01.30-04.03.23:917][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Audio/Explosion02.uasset"
+[2016.01.30-04.03.23:920][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2016.01.30-04.03.23:927][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Audio/Fire01.uasset"
+[2016.01.30-04.03.23:929][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2016.01.30-04.03.23:935][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2016.01.30-04.03.23:938][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2016.01.30-04.03.23:943][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Audio/Light01.uasset"
+[2016.01.30-04.03.23:946][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2016.01.30-04.03.23:951][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Audio/Light02.uasset"
+[2016.01.30-04.03.23:953][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2016.01.30-04.03.23:959][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Audio/Smoke01.uasset"
+[2016.01.30-04.03.23:961][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2016.01.30-04.03.23:965][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2016.01.30-04.03.23:978][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2016.01.30-04.03.24:009][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2016.01.30-04.03.24:012][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2016.01.30-04.03.24:024][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2016.01.30-04.03.24:036][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2016.01.30-04.03.24:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Audio/Steam01.uasset"
+[2016.01.30-04.03.24:045][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2016.01.30-04.03.24:051][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2016.01.30-04.03.24:056][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2016.01.30-04.03.24:060][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2016.01.30-04.03.24:065][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2016.01.30-04.03.24:069][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2016.01.30-04.03.24:074][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2016.01.30-04.03.24:078][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2016.01.30-04.03.24:084][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2016.01.30-04.03.24:086][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2016.01.30-04.03.24:091][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2016.01.30-04.03.24:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2016.01.30-04.03.24:100][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2016.01.30-04.03.24:104][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2016.01.30-04.03.24:110][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2016.01.30-04.03.24:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2016.01.30-04.03.24:119][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2016.01.30-04.03.24:618][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2016.01.30-04.03.24:623][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2016.01.30-04.03.24:633][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Maps/Minimal_Default.umap"
+[2016.01.30-04.03.24:687][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Maps/StarterMap.umap"
+[2016.01.30-04.03.24:692][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2016.01.30-04.03.24:696][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2016.01.30-04.03.24:701][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2016.01.30-04.03.24:705][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2016.01.30-04.03.24:709][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2016.01.30-04.03.24:713][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2016.01.30-04.03.24:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2016.01.30-04.03.24:721][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2016.01.30-04.03.24:725][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2016.01.30-04.03.24:729][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2016.01.30-04.03.24:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2016.01.30-04.03.24:739][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2016.01.30-04.03.24:744][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2016.01.30-04.03.24:748][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2016.01.30-04.03.24:752][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2016.01.30-04.03.24:756][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2016.01.30-04.03.24:761][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2016.01.30-04.03.24:764][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_Glass.uasset"
+[2016.01.30-04.03.24:768][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2016.01.30-04.03.24:773][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2016.01.30-04.03.24:777][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2016.01.30-04.03.24:781][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2016.01.30-04.03.24:785][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2016.01.30-04.03.24:789][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2016.01.30-04.03.24:794][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2016.01.30-04.03.24:798][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2016.01.30-04.03.24:802][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2016.01.30-04.03.24:806][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2016.01.30-04.03.24:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2016.01.30-04.03.24:816][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2016.01.30-04.03.24:820][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2016.01.30-04.03.24:825][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2016.01.30-04.03.24:831][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2016.01.30-04.03.24:836][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2016.01.30-04.03.24:842][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2016.01.30-04.03.24:846][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2016.01.30-04.03.24:851][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2016.01.30-04.03.24:856][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2016.01.30-04.03.24:863][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2016.01.30-04.03.24:868][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2016.01.30-04.03.24:872][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2016.01.30-04.03.24:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2016.01.30-04.03.24:880][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2016.01.30-04.03.24:884][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2016.01.30-04.03.24:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Particles/P_Explosion.uasset"
+[2016.01.30-04.03.24:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Particles/P_Fire.uasset"
+[2016.01.30-04.03.24:897][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Particles/P_Smoke.uasset"
+[2016.01.30-04.03.24:901][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Particles/P_Sparks.uasset"
+[2016.01.30-04.03.24:905][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2016.01.30-04.03.24:909][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2016.01.30-04.03.24:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2016.01.30-04.03.24:918][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2016.01.30-04.03.24:922][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2016.01.30-04.03.24:926][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2016.01.30-04.03.24:930][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2016.01.30-04.03.24:934][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2016.01.30-04.03.24:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2016.01.30-04.03.24:941][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2016.01.30-04.03.24:945][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2016.01.30-04.03.24:949][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Props/MaterialSphere.uasset"
+[2016.01.30-04.03.24:953][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Props/SM_Bush.uasset"
+[2016.01.30-04.03.24:957][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Props/SM_Chair.uasset"
+[2016.01.30-04.03.24:963][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2016.01.30-04.03.24:968][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Props/SM_Couch.uasset"
+[2016.01.30-04.03.24:972][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Props/SM_Door.uasset"
+[2016.01.30-04.03.24:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2016.01.30-04.03.24:980][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2016.01.30-04.03.24:985][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2016.01.30-04.03.24:989][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2016.01.30-04.03.25:001][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2016.01.30-04.03.25:005][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2016.01.30-04.03.25:009][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2016.01.30-04.03.25:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Props/SM_Rock.uasset"
+[2016.01.30-04.03.25:017][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Props/SM_Shelf.uasset"
+[2016.01.30-04.03.25:021][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Props/SM_Stairs.uasset"
+[2016.01.30-04.03.25:026][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Props/SM_Statue.uasset"
+[2016.01.30-04.03.25:031][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Props/SM_TableRound.uasset"
+[2016.01.30-04.03.25:035][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2016.01.30-04.03.25:039][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2016.01.30-04.03.25:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2016.01.30-04.03.25:046][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2016.01.30-04.03.25:050][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2016.01.30-04.03.25:053][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2016.01.30-04.03.25:057][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2016.01.30-04.03.25:061][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2016.01.30-04.03.25:065][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2016.01.30-04.03.25:071][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2016.01.30-04.03.25:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2016.01.30-04.03.25:085][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2016.01.30-04.03.25:088][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2016.01.30-04.03.25:093][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2016.01.30-04.03.25:096][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2016.01.30-04.03.25:100][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2016.01.30-04.03.25:104][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2016.01.30-04.03.25:109][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2016.01.30-04.03.25:114][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2016.01.30-04.03.25:118][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2016.01.30-04.03.25:122][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2016.01.30-04.03.25:126][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2016.01.30-04.03.25:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2016.01.30-04.03.25:135][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2016.01.30-04.03.25:139][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2016.01.30-04.03.25:143][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2016.01.30-04.03.25:147][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2016.01.30-04.03.25:151][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2016.01.30-04.03.25:155][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2016.01.30-04.03.25:158][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2016.01.30-04.03.25:163][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2016.01.30-04.03.25:167][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2016.01.30-04.03.25:195][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2016.01.30-04.03.25:224][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2016.01.30-04.03.25:251][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2016.01.30-04.03.25:273][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2016.01.30-04.03.25:304][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2016.01.30-04.03.25:331][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2016.01.30-04.03.25:370][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2016.01.30-04.03.25:399][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2016.01.30-04.03.25:446][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2016.01.30-04.03.25:471][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2016.01.30-04.03.25:505][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2016.01.30-04.03.25:530][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2016.01.30-04.03.25:562][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2016.01.30-04.03.25:567][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2016.01.30-04.03.25:573][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2016.01.30-04.03.25:578][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2016.01.30-04.03.25:584][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2016.01.30-04.03.25:589][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2016.01.30-04.03.25:595][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2016.01.30-04.03.25:606][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2016.01.30-04.03.25:612][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2016.01.30-04.03.25:650][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2016.01.30-04.03.25:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2016.01.30-04.03.25:699][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2016.01.30-04.03.25:713][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2016.01.30-04.03.25:726][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2016.01.30-04.03.25:753][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2016.01.30-04.03.25:775][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2016.01.30-04.03.25:806][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2016.01.30-04.03.25:843][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2016.01.30-04.03.25:874][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2016.01.30-04.03.25:897][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2016.01.30-04.03.25:944][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2016.01.30-04.03.25:979][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2016.01.30-04.03.26:009][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2016.01.30-04.03.26:041][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2016.01.30-04.03.26:087][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2016.01.30-04.03.26:094][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2016.01.30-04.03.26:117][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2016.01.30-04.03.26:131][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Door_M.uasset"
+[2016.01.30-04.03.26:163][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Door_N.uasset"
+[2016.01.30-04.03.26:180][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2016.01.30-04.03.26:209][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2016.01.30-04.03.26:225][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2016.01.30-04.03.26:276][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2016.01.30-04.03.26:287][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2016.01.30-04.03.26:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2016.01.30-04.03.26:320][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2016.01.30-04.03.26:390][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2016.01.30-04.03.26:436][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2016.01.30-04.03.26:488][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2016.01.30-04.03.26:527][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2016.01.30-04.03.26:609][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2016.01.30-04.03.26:682][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2016.01.30-04.03.26:701][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2016.01.30-04.03.26:724][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2016.01.30-04.03.26:796][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2016.01.30-04.03.26:835][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2016.01.30-04.03.26:872][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2016.01.30-04.03.26:917][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2016.01.30-04.03.26:964][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2016.01.30-04.03.27:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2016.01.30-04.03.27:057][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2016.01.30-04.03.27:079][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2016.01.30-04.03.27:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2016.01.30-04.03.27:150][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2016.01.30-04.03.27:193][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2016.01.30-04.03.27:229][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2016.01.30-04.03.27:286][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2016.01.30-04.03.27:326][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2016.01.30-04.03.27:365][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2016.01.30-04.03.27:405][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2016.01.30-04.03.27:448][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2016.01.30-04.03.27:499][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2016.01.30-04.03.27:540][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2016.01.30-04.03.27:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2016.01.30-04.03.27:639][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2016.01.30-04.03.27:657][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2016.01.30-04.03.27:674][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2016.01.30-04.03.27:700][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2016.01.30-04.03.27:744][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2016.01.30-04.03.27:761][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2016.01.30-04.03.27:782][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2016.01.30-04.03.27:804][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2016.01.30-04.03.27:839][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2016.01.30-04.03.27:864][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2016.01.30-04.03.27:881][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2016.01.30-04.03.27:902][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2016.01.30-04.03.27:947][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2016.01.30-04.03.27:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2016.01.30-04.03.27:985][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2016.01.30-04.03.28:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2016.01.30-04.03.28:046][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Water_M.uasset"
+[2016.01.30-04.03.28:079][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Water_N.uasset"
+[2016.01.30-04.03.28:107][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2016.01.30-04.03.28:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2016.01.30-04.03.28:166][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2016.01.30-04.03.28:202][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2016.01.30-04.03.28:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2016.01.30-04.03.28:286][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2016.01.30-04.03.28:326][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2016.01.30-04.03.28:362][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2016.01.30-04.03.28:392][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2016.01.30-04.03.28:662][  0]LogRenderer: Reallocating scene render targets to support 256x256 (Frame:2).
+[2016.01.30-04.03.28:901][  0]LogSavePackage: Save=9.080830ms
+[2016.01.30-04.03.28:901][  0]LogSavePackage: Moving '../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Saved/Floor_400x400E3C69D7A4A6F2AC4C6A21C82118EFA5D.tmp' to '../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2016.01.30-04.03.28:906][  0]LogSavePackage: Total save time: 16.650613ms
+[2016.01.30-04.03.28:906][  0]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2016.01.30-04.03.28:906][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2016.01.30-04.03.28:908][  0]Cmd: MAP LOAD FILE="../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.30-04.03.28:908][  0]LightingResults: New page: Lighting Build
+[2016.01.30-04.03.28:912][  0]MapCheck: New page: Map Check
+[2016.01.30-04.03.28:912][  0]LightingResults: New page: Lighting Build
+[2016.01.30-04.03.28:919][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000054FBF6C400
+[2016.01.30-04.03.28:920][  0]LogLinker:Warning: Asset '../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.30-04.03.28:921][  0]LogLinker:Warning: Asset '../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.30-04.03.28:922][  0]LogLinker:Warning: Asset '../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.30-04.03.28:923][  0]LogLinker:Warning: Asset '../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.30-04.03.28:924][  0]LogLinker:Warning: Asset '../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.30-04.03.28:925][  0]LogLinker:Warning: Asset '../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.30-04.03.28:925][  0]LogLinker:Warning: Asset '../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.30-04.03.28:926][  0]LogLinker:Warning: Asset '../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.30-04.03.28:926][  0]LogLinker:Warning: Asset '../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.30-04.03.29:338][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.01.30-04.03.29:346][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.30-04.03.29:347][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.30-04.03.29:378][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 31.462ms to complete.
+[2016.01.30-04.03.29:378][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.470
+[2016.01.30-04.03.29:522][  0]LogCollectionManager: Loaded 0 collections in 0.001307 seconds
+[2016.01.30-04.03.29:568][  0]LogFileCache: Scanning file cache for directory 'C:/Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Saved/Collections/' took 0.01s
+[2016.01.30-04.03.29:568][  0]LogFileCache: Scanning file cache for directory 'C:/Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/Developers/chris/Collections/' took 0.01s
+[2016.01.30-04.03.29:568][  0]LogFileCache: Scanning file cache for directory 'C:/Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/Collections/' took 0.01s
+[2016.01.30-04.03.29:568][  0]LogContentBrowser: Native class hierarchy populated in 0.0058 seconds. Added 1882 classes and 339 folders.
+[2016.01.30-04.03.29:582][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.01.30-04.03.29:591][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2016.01.30-04.03.29:618][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2016.01.30-04.03.29:653][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.01.30-04.03.29:780][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.01.30-04.03.29:787][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.01.30-04.03.29:811][  0]LogLoad: Full Startup: 10.88 seconds (BP compile: 0.07 seconds)
+[2016.01.30-04.03.30:067][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.01.30-04.03.30:167][  0]LogRenderer: Reallocating scene render targets to support 860x860 (Frame:3).
+[2016.01.30-04.03.30:285][  4]LogAssetRegistry: Asset discovery search completed in 8.2251 seconds
+[2016.01.30-04.03.30:285][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.01.30-04.03.30:285][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2016.01.30-04.03.37:512][853]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.30-04.03.37:512][853]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.30-04.03.37:513][853]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 29, 2016, 12:03:37 PM)
+[2016.01.30-04.03.37:513][853]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.01.30-04.03.37:534][853]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020545s)
+[2016.01.30-04.03.37:535][853]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.01.30-04.03.37:535][853]LogPlayLevel: PIE: World Init took: (0.001051s)
+[2016.01.30-04.03.37:535][853]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021783s)
+[2016.01.30-04.03.37:574][853]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.30-04.03.37:579][853]LogInit: FAudioDevice initialized.
+[2016.01.30-04.03.37:636][853]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.01.30-04.03.37:640][853]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.01.29-20.03.37
+[2016.01.30-04.03.37:640][853]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.30-04.03.37:640][853]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.30-04.03.37:641][853]LogWorld: Bringing up level for play took: 0.003325
+[2016.01.30-04.03.37:646][853]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.579
+[2016.01.30-04.03.37:646][853]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.30-04.03.47:926][ 44]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.30-04.03.47:958][ 44]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.30-04.03.47:967][ 44]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000054928E1940
+[2016.01.30-04.06.19:010][168]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2016.01.30-04.06.19:889][269]Cmd: DELETE
+[2016.01.30-04.06.19:889][269]Cmd: ACTOR DELETE
+[2016.01.30-04.06.19:893][269]LogEditorActor: Deleted Actor: PlayerStart
+[2016.01.30-04.06.19:902][269]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2016.01.30-04.11.57:320][966]LogSavePackage: Save=221.687027ms
+[2016.01.30-04.11.57:320][966]LogSavePackage: Moving '../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Saved/ThirdPersonExampleMap12478089452ECB9E3117DE820FD816CC.tmp' to '../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.01.30-04.11.57:322][966]LogSavePackage: Total save time: 232.258078ms
+[2016.01.30-04.11.57:322][966]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/chris/Documents/Unreal Projects/SurviveBlackFriday/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.01.30-04.11.57:343][966]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.299
+[2016.01.30-04.11.57:609][967]Cmd: QUIT_EDITOR
+[2016.01.30-04.11.58:403][967]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.30-04.11.58:485][967]LogExit: Preparing to exit.
+[2016.01.30-04.11.59:463][967]LogExit: Editor shut down
+[2016.01.30-04.11.59:463][967]LogExit: Transaction tracking system shut down
+[2016.01.30-04.11.59:463][967]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000054FFF1CC20
+[2016.01.30-04.11.59:464][967]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000054EABD6660
+[2016.01.30-04.11.59:464][967]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000549379B880
+[2016.01.30-04.11.59:552][967]LogExit: Object subsystem successfully closed.
+[2016.01.30-04.11.59:565][967]LogD3D11RHI: Shutdown
+[2016.01.30-04.11.59:565][967]LogD3D11RHI: CleanupD3DDevice
+[2016.01.30-04.11.59:595][967]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.01.30-04.11.59:607][967]LogModuleManager: Shutting down and abandoning module CrashTracker (199)
+[2016.01.30-04.11.59:607][967]LogModuleManager: Shutting down and abandoning module SceneOutliner (198)
+[2016.01.30-04.11.59:607][967]LogModuleManager: Shutting down and abandoning module SuperSearch (197)
+[2016.01.30-04.11.59:607][967]LogModuleManager: Shutting down and abandoning module WidgetCarousel (196)
+[2016.01.30-04.11.59:607][967]LogModuleManager: Shutting down and abandoning module AddContentDialog (195)
+[2016.01.30-04.11.59:608][967]LogModuleManager: Shutting down and abandoning module EditorWidgets (194)
+[2016.01.30-04.11.59:608][967]LogModuleManager: Shutting down and abandoning module CollectionManager (193)
+[2016.01.30-04.11.59:608][967]LogModuleManager: Shutting down and abandoning module StatsViewer (192)
+[2016.01.30-04.11.59:608][967]LogModuleManager: Shutting down and abandoning module FoliageEdit (191)
+[2016.01.30-04.11.59:608][967]LogModuleManager: Shutting down and abandoning module LandscapeEditor (190)
+[2016.01.30-04.11.59:609][967]LogModuleManager: Shutting down and abandoning module ActorPickerMode (189)
+[2016.01.30-04.11.59:609][967]LogModuleManager: Shutting down and abandoning module GeometryMode (188)
+[2016.01.30-04.11.59:609][967]LogModuleManager: Shutting down and abandoning module TextureAlignMode (187)
+[2016.01.30-04.11.59:609][967]LogModuleManager: Shutting down and abandoning module BspMode (186)
+[2016.01.30-04.11.59:609][967]LogModuleManager: Shutting down and abandoning module PlacementMode (185)
+[2016.01.30-04.11.59:609][967]LogModuleManager: Shutting down and abandoning module AutomationWorker (184)
+[2016.01.30-04.11.59:609][967]LogModuleManager: Shutting down and abandoning module CharacterAI (183)
+[2016.01.30-04.11.59:609][967]LogModuleManager: Shutting down and abandoning module SmartSnapping (182)
+[2016.01.30-04.11.59:609][967]LogModuleManager: Shutting down and abandoning module ViewportSnapping (181)
+[2016.01.30-04.11.59:609][967]LogModuleManager: Shutting down and abandoning module LogVisualizer (180)
+[2016.01.30-04.11.59:609][967]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (179)
+[2016.01.30-04.11.59:609][967]LogModuleManager: Shutting down and abandoning module IntroTutorials (178)
+[2016.01.30-04.11.59:609][967]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (177)
+[2016.01.30-04.11.59:609][967]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (176)
+[2016.01.30-04.11.59:609][967]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (175)
+[2016.01.30-04.11.59:609][967]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (174)
+[2016.01.30-04.11.59:734][967]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (173)
+[2016.01.30-04.11.59:734][967]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (172)
+[2016.01.30-04.11.59:734][967]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (171)
+[2016.01.30-04.11.59:734][967]LogModuleManager: Shutting down and abandoning module MergeActors (170)
+[2016.01.30-04.11.59:734][967]LogModuleManager: Shutting down and abandoning module SizeMap (169)
+[2016.01.30-04.11.59:734][967]LogModuleManager: Shutting down and abandoning module TreeMap (168)
+[2016.01.30-04.11.59:734][967]LogModuleManager: Shutting down and abandoning module ReferenceViewer (167)
+[2016.01.30-04.11.59:734][967]LogModuleManager: Shutting down and abandoning module LocalizationService (166)
+[2016.01.30-04.11.59:734][967]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (165)
+[2016.01.30-04.11.59:734][967]LogModuleManager: Shutting down and abandoning module HardwareTargeting (164)
+[2016.01.30-04.11.59:734][967]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (163)
+[2016.01.30-04.11.59:734][967]LogModuleManager: Shutting down and abandoning module UndoHistory (162)
+[2016.01.30-04.11.59:734][967]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (161)
+[2016.01.30-04.11.59:734][967]LogModuleManager: Shutting down and abandoning module UserFeedback (160)
+[2016.01.30-04.11.59:734][967]LogModuleManager: Shutting down and abandoning module XmlParser (159)
+[2016.01.30-04.11.59:734][967]LogModuleManager: Shutting down and abandoning module Blutility (158)
+[2016.01.30-04.11.59:734][967]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (157)
+[2016.01.30-04.11.59:734][967]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (156)
+[2016.01.30-04.11.59:734][967]LogModuleManager: Shutting down and abandoning module InputBindingEditor (155)
+[2016.01.30-04.11.59:734][967]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (154)
+[2016.01.30-04.11.59:734][967]LogModuleManager: Shutting down and abandoning module SettingsEditor (153)
+[2016.01.30-04.11.59:734][967]LogModuleManager: Shutting down and abandoning module ProjectLauncher (152)
+[2016.01.30-04.11.59:734][967]LogModuleManager: Shutting down and abandoning module SessionFrontend (151)
+[2016.01.30-04.11.59:734][967]LogModuleManager: Shutting down and abandoning module ProfilerClient (150)
+[2016.01.30-04.11.59:734][967]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (149)
+[2016.01.30-04.11.59:734][967]LogModuleManager: Shutting down and abandoning module DeviceManager (148)
+[2016.01.30-04.11.59:734][967]LogModuleManager: Shutting down and abandoning module AutomationController (147)
+[2016.01.30-04.11.59:734][967]LogModuleManager: Shutting down and abandoning module AutomationWindow (146)
+[2016.01.30-04.11.59:734][967]LogModuleManager: Shutting down and abandoning module Layers (145)
+[2016.01.30-04.11.59:734][967]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (144)
+[2016.01.30-04.11.59:734][967]LogModuleManager: Shutting down and abandoning module DetailCustomizations (143)
+[2016.01.30-04.11.59:734][967]LogModuleManager: Shutting down and abandoning module PackagesDialog (142)
+[2016.01.30-04.11.59:734][967]LogModuleManager: Shutting down and abandoning module Persona (141)
+[2016.01.30-04.11.59:734][967]LogModuleManager: Shutting down and abandoning module Kismet (140)
+[2016.01.30-04.11.59:734][967]LogModuleManager: Shutting down and abandoning module GraphEditor (139)
+[2016.01.30-04.11.59:734][967]LogModuleManager: Shutting down and abandoning module ClassViewer (138)
+[2016.01.30-04.11.59:734][967]LogModuleManager: Shutting down and abandoning module Toolbox (137)
+[2016.01.30-04.11.59:734][967]LogModuleManager: Shutting down and abandoning module ModuleUI (136)
+[2016.01.30-04.11.59:734][967]LogModuleManager: Shutting down and abandoning module MovieSceneTools (135)
+[2016.01.30-04.11.59:734][967]LogModuleManager: Shutting down and abandoning module OutputLog (134)
+[2016.01.30-04.11.59:735][967]LogModuleManager: Shutting down and abandoning module GammaUI (133)
+[2016.01.30-04.11.59:735][967]LogModuleManager: Shutting down and abandoning module Documentation (132)
+[2016.01.30-04.11.59:735][967]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (131)
+[2016.01.30-04.11.59:735][967]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (130)
+[2016.01.30-04.11.59:735][967]LogModuleManager: Shutting down and abandoning module AnalyticsET (129)
+[2016.01.30-04.11.59:735][967]LogModuleManager: Shutting down and abandoning module Analytics (128)
+[2016.01.30-04.11.59:735][967]LogModuleManager: Shutting down and abandoning module AITestSuite (127)
+[2016.01.30-04.11.59:735][967]LogModuleManager: Shutting down and abandoning module GameplayDebugger (126)
+[2016.01.30-04.11.59:735][967]LogModuleManager: Shutting down and abandoning module AIModule (125)
+[2016.01.30-04.11.59:735][967]LogModuleManager: Shutting down and abandoning module ProfilerService (124)
+[2016.01.30-04.11.59:862][967]LogModuleManager: Shutting down and abandoning module TaskGraph (123)
+[2016.01.30-04.11.59:862][967]LogModuleManager: Shutting down and abandoning module SubstanceEditor (122)
+[2016.01.30-04.11.59:862][967]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.01.30-04.11.59:862][967]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.01.30-04.11.59:862][967]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.01.30-04.11.59:862][967]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.01.30-04.11.59:862][967]LogModuleManager: Shutting down and abandoning module OculusRift (117)
+[2016.01.30-04.11.59:862][967]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
+[2016.01.30-04.11.59:862][967]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.01.30-04.11.59:872][967]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.01.30-04.11.59:872][967]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.01.30-04.11.59:872][967]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.01.30-04.11.59:872][967]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.01.30-04.11.59:872][967]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.01.30-04.11.59:872][967]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.01.30-04.11.59:872][967]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.01.30-04.11.59:872][967]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.01.30-04.11.59:872][967]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.01.30-04.11.59:872][967]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.01.30-04.11.59:872][967]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.01.30-04.11.59:872][967]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.01.30-04.11.59:872][967]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.01.30-04.11.59:872][967]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.01.30-04.11.59:872][967]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.01.30-04.11.59:872][967]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.01.30-04.11.59:872][967]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.01.30-04.11.59:872][967]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.01.30-04.11.59:872][967]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.01.30-04.11.59:872][967]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.01.30-04.11.59:872][967]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.01.30-04.11.59:872][967]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.01.30-04.11.59:872][967]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.01.30-04.11.59:872][967]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.01.30-04.11.59:873][967]LogModuleManager: Shutting down and abandoning module ContentBrowser (90)
+[2016.01.30-04.11.59:873][967]LogModuleManager: Shutting down and abandoning module Paper2DEditor (89)
+[2016.01.30-04.11.59:873][967]LogModuleManager: Shutting down and abandoning module UdpMessaging (88)
+[2016.01.30-04.11.59:974][967]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2016.01.30-04.11.59:974][967]LogModuleManager: Shutting down and abandoning module AssetRegistry (86)
+[2016.01.30-04.12.00:087][967]LogModuleManager: Shutting down and abandoning module SubstanceCore (85)
+[2016.01.30-04.12.00:087][967]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2016.01.30-04.12.00:087][967]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2016.01.30-04.12.00:087][967]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2016.01.30-04.12.00:089][967]LogModuleManager: Shutting down and abandoning module Media (81)
+[2016.01.30-04.12.00:089][967]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2016.01.30-04.12.00:089][967]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2016.01.30-04.12.00:089][967]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2016.01.30-04.12.00:089][967]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2016.01.30-04.12.00:089][967]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2016.01.30-04.12.00:089][967]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2016.01.30-04.12.00:089][967]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2016.01.30-04.12.00:089][967]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2016.01.30-04.12.00:089][967]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2016.01.30-04.12.00:089][967]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2016.01.30-04.12.00:089][967]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2016.01.30-04.12.00:089][967]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2016.01.30-04.12.00:089][967]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2016.01.30-04.12.00:089][967]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2016.01.30-04.12.00:089][967]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2016.01.30-04.12.00:091][967]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2016.01.30-04.12.00:091][967]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2016.01.30-04.12.00:091][967]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2016.01.30-04.12.00:091][967]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2016.01.30-04.12.00:091][967]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2016.01.30-04.12.00:091][967]LogModuleManager: Shutting down and abandoning module Core (59)
+[2016.01.30-04.12.00:091][967]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2016.01.30-04.12.00:091][967]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2016.01.30-04.12.00:091][967]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2016.01.30-04.12.00:091][967]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2016.01.30-04.12.00:091][967]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2016.01.30-04.12.00:107][967]LogDerivedDataCache: Shutdown
+[2016.01.30-04.12.00:107][967]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2016.01.30-04.12.00:107][967]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2016.01.30-04.12.00:107][967]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2016.01.30-04.12.00:107][967]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2016.01.30-04.12.00:107][967]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2016.01.30-04.12.00:107][967]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2016.01.30-04.12.00:107][967]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2016.01.30-04.12.00:107][967]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2016.01.30-04.12.00:107][967]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2016.01.30-04.12.00:107][967]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2016.01.30-04.12.00:107][967]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2016.01.30-04.12.00:107][967]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2016.01.30-04.12.00:107][967]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2016.01.30-04.12.00:107][967]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2016.01.30-04.12.00:107][967]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2016.01.30-04.12.00:107][967]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2016.01.30-04.12.00:107][967]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2016.01.30-04.12.00:107][967]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2016.01.30-04.12.00:107][967]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2016.01.30-04.12.00:107][967]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2016.01.30-04.12.00:107][967]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2016.01.30-04.12.00:107][967]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2016.01.30-04.12.00:107][967]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2016.01.30-04.12.00:107][967]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2016.01.30-04.12.00:107][967]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2016.01.30-04.12.00:107][967]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2016.01.30-04.12.00:107][967]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2016.01.30-04.12.00:107][967]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2016.01.30-04.12.00:107][967]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2016.01.30-04.12.00:107][967]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2016.01.30-04.12.00:107][967]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2016.01.30-04.12.00:107][967]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2016.01.30-04.12.00:107][967]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2016.01.30-04.12.00:107][967]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2016.01.30-04.12.00:108][967]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.01.30-04.12.00:108][967]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2016.01.30-04.12.02:111][967]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2016.01.30-04.12.02:111][967]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.01.30-04.12.02:111][967]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.01.30-04.12.02:111][967]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.01.30-04.12.02:111][967]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.01.30-04.12.02:111][967]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.01.30-04.12.02:113][967]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.01.30-04.12.02:113][967]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.01.30-04.12.02:113][967]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.01.30-04.12.02:113][967]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.01.30-04.12.02:113][967]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.01.30-04.12.02:113][967]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.01.30-04.12.02:113][967]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.01.30-04.12.02:113][967]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.01.30-04.12.02:113][967]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.01.30-04.12.02:113][967]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.01.30-04.12.02:114][967]LogExit: Exiting.
+[2016.01.30-04.12.02:149][967]Log file closed, 01/29/16 20:12:02
